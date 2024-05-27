@@ -1,10 +1,10 @@
 /*
-Q16. Write a C++ program to check if two arrays are equal or not.
+Q. 16. Write a C++ program to check if two arrays are equal or not.
 (Two arrays are said to be equal if the elements at the given index are equal in both arrays. 
 In this program, you have to take two arrays, and then check whether the two arrays are equal.)
-For Example,
-arr1[] = {5, 8, 3}
-arr2[] = {5, 8, 11, 2}
+For example:
+arr1[] = {5, 8, 3};
+arr2[] = {5, 8, 11, 2};
 Output: arr1[] and arr2[] are not equal.
 */
 
@@ -23,19 +23,21 @@ int main() {
   
   std :: cout << "Enter the number of elements in the second array: \n";
   std :: cin >> n2;
-    double arr2 [n2];
+  double arr2 [n2];
   for (int j = 0; j < n2; j ++) {
     std :: cout << "Enter the second array's element at index " << j << ": ";
     std :: cin >> arr2[j];
   }
   
   bool equal = true;
+  
   if (n1 != n2)
     equal = false;
   else
     for (int k = 0; k < n1; k ++)
       if (arr1[k] != arr2[k])
         equal = false;
+  
   if (equal)
     std :: cout << "The two arrays are equal. \n";
   else
