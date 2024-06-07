@@ -20,10 +20,11 @@ int main() {
 	std::cout << "\n Please enter the second string: \n";
 	std::getline(std::cin, s2);
 	std::cout << "\n Thank you. The first string is \n" << s1 << "\n and the second string is \n" << s2 << "\n\n";
+	
 	if (s1 == s2)
 		std::cout << "Yes, these two strings are equal. \n";
 	else
 		std::cout << "No, these two strings are not equal. \n";
 
 	return 0;
-	}
+}
