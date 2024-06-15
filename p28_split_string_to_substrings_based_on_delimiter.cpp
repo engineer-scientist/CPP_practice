@@ -1,5 +1,5 @@
 /*
-Q, 28. Write a C++ program to split a given string into a number of sub-strings based on some delimiter.
+Q. 28. Write a C++ program to split a given string into a number of sub-strings based on some delimiter.
 It is also called tokenization.
 For example:
 str = "Welcome Geeks to the GeeksforGeeks portal."
